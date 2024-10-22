@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { subscribeToNewsletter } from '../redux/newsletterSlice'; // Redux action to handle subscriptions
+import { subscribeToNewsletter } from '../src/redux/newsletterSlice'; // Redux action to handle subscriptions
 
 const Newsletter = () => {
   const dispatch = useDispatch();

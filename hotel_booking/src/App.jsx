@@ -7,9 +7,9 @@ import Accommodations from './Pages/Accommodations';
 import Booking from './Pages/Booking';
 import Register from './Pages/Register';
 import Login from './Pages/Login';
-import UserProfile from './Pages/UserProfile';
+import UserProfile from './Pages/UserProfile'
 import AdminPanel from './Pages/AdminPanel';
-import Favorites from './Pages/Favorites';
+import Favorites from './Pages/Favourites';
 import Newsletter from './Pages/Newsletter'; // Import Newsletter page
 import Review from './Pages/Review'; // Import Review page
 

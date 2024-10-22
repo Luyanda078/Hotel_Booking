@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchAccommodations } from '../redux/accommodationSlice';
+import { fetchAccommodations } from './redux/accommodationSlice';
 import { addFavorite } from '../redux/favoritesSlice';
 
 const AccommodationList = () => {
