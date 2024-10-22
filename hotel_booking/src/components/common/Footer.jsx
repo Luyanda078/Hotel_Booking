@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { footerContact, footerItem, socialIcons } from "../data/Data";
-import Newsletter from "../home/Newsletter";
+import Newsletter from "../home/NewsLetter";
 
 export default function Footer() {
   return (

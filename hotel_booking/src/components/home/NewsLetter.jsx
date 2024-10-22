@@ -10,7 +10,8 @@ export default function Newsletter() {
               <div className="border rounded text-center p-1">
                 <div className="bg-white rounded text-center p-5">
                   <h4 className="mb-4">
-                    Subscribe Our
+                    Subscribe Our -
+
                     <span className="text-primary text-uppercase">
                       Newsletter
                     </span>

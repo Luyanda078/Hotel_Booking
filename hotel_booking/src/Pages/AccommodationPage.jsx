@@ -1,6 +1,6 @@
 import React from "react";
 import Heading from "../components/common/Heading";
-import Rooms from "../components/home/Accommodation";
+import Accommodation from "../components/home/Accommodation";
 
 export default function AccommodationPage() {
   return (
