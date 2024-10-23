@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchAccommodations } from './redux/accommodationSlice';
-import { addFavorite } from '../redux/favoritesSlice';
+import { fetchAccommodations } from '../Redux/accommodationSlice';
+import { addFavorite } from '../Redux/favouritesSlice';
 
 const AccommodationList = () => {
   const dispatch = useDispatch();

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { createBooking } from '../src/redux/bookingSlice'; // Booking action
+import { createBooking } from '../Redux/bookingSlice'; // Booking action
 import { useSelector } from 'react-redux';
 
 const Booking = () => {
