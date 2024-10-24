@@ -5,7 +5,8 @@ import { addFavorite } from '../Redux/favouritesSlice';
 
 const AccommodationList = () => {
   const dispatch = useDispatch();
-  const { accommodations, loading } = useSelector((state) => state.accommodations);
+  const { items: accommodations, loading } = useSelector((state) => state.accommodations);
+
 
   useEffect(() => {
     dispatch(fetchAccommodations());
